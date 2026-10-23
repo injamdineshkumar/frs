@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Local environments and secrets
+.venv/
+venv/
+.env
+.streamlit/secrets.toml
+
+# Student data and generated models
+/data/dataset/
+/data/students.json
+/data/trainer/
+/output/
